@@ -29,7 +29,6 @@
 | SplaTAM | Real-time SLAM | 21.680 | 0.847(MS-SSIM) | 0.248 | 0.196 | 1.476 | 971,162 |
 | Photo-SLAM | Real-time SLAM | 19.60 | 0.702 | 0.266 | 10.25 | 0.559 | 36,821 |
 | MemGS | Real-time SLAM | 18.218 | 0.5045 | 0.4754 | 9.217 | 1.190 | 36,678 |
-| **Ours (A+B)** | **Real-time SLAM** | **23.364** | **0.6241** | **0.3587** | **9.377** | **3.064** | **21,911** |
 
 ### Scene 2: fr2_xyz
 | Algorithm | Type | PSNR ↑ | SSIM ↑ | LPIPS ↓ | FPS ↑ | Mem(GB) | Points ↓ |
@@ -37,7 +36,6 @@
 | SplaTAM | Real-time SLAM | 25.14 | 0.954(MS-SSIM) | 0.090 | 0.074 | 9.067 | 6,283,744 |
 | Photo-SLAM | Real-time SLAM | 22.11 | 0.771 | 0.168 | 11.14 | 0.482 | 80,502 |
 | MemGS | Real-time SLAM | 26.489 | 0.5958 | 0.3059 | 10.289 | 0.587 | 40,477 |
-| **Ours (A+B)** | **Real-time SLAM** | **26.736** | **0.5980** | **0.3011** | **8.926** | **1.956** | **32,156** |
 
 ### Scene 3: fr3_office
 | Algorithm | Type | PSNR ↑ | SSIM ↑ | LPIPS ↓ | FPS ↑ | Mem(GB) | Points ↓ |
@@ -45,7 +43,6 @@
 | SplaTAM | Real-time SLAM | 21.680 | 0.874(MS-SSIM) | 0.209 | 0.217 | 3.276 | 802,888 |
 | Photo-SLAM | Real-time SLAM | 19.85 | 0.705 | 0.161 | 10.05 | 1.196 | 62,512 |
 | MemGS | Real-time SLAM | 24.375 | 0.8302 | 0.2363 | 9.124 | 1.709 | 52,076 |
-| **Ours (A+B)** | **Real-time SLAM** | **25.482** | **0.8610** | **0.2030** | **9.371** | **11.971** | **69,945** |
 
 > **Note**: `SSIM` / `LPIPS` metrics are in progress and will be updated.  
 > `Mem` = Peak GPU memory usage during tracking/mapping (GB).  
