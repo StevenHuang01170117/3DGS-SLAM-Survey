@@ -7,14 +7,14 @@
 
 | Algorithm | Type | Code Source | Status |
 |-----------|------|-------------|--------|
-| Hierarchical3DGS | Offline | [Official](https://github.com) | ✅ Reproduced |
-| MemGS | Real-time SLAM | [Official](https://github.com) | ✅ Reproduced |
-| LEGO-SLAM | Real-time SLAM | [Official](https://github.com) | ✅ Reproduced |
-| SplaTAM | Real-time SLAM | [Official](https://github.com) | ✅ Reproduced |
-| VINGS-Mono | Real-time SLAM | [Official](https://github.com) | ✅ Reproduced |
-| MonoGS | Real-time SLAM | [Official](https://github.com) | ✅ Reproduced |
-| PhotoSLAM | Real-time SLAM | [Official](https://github.com) | ✅ Reproduced |
-| Traditional 3DGS | Offline | [Official](https://github.com) | ✅ Reproduced |
+| Hierarchical3DGS | Offline | [Official](https://github.com/graphdeco-inria/hierarchical-3d-gaussians) | ✅ Reproduced |
+| MemGS | Real-time SLAM | [Official](https://github.com/NAIL-HNU/MemGS_SLAM) | ✅ Reproduced |
+| LEGO-SLAM | Real-time SLAM | [Official](https://github.com/Lab-of-AI-and-Robotics/LEGO-SLAM) | ✅ Reproduced |
+| SplaTAM | Real-time SLAM | [Official](https://github.com/spla-tam/SplaTAM) | ✅ Reproduced |
+| VINGS-Mono | Real-time SLAM | [Official](https://github.com/Fudan-MAGIC-Lab/VINGS-Mono) | ✅ Reproduced |
+| MonoGS | Real-time SLAM | [Official](https://github.com/muskie82/MonoGS) | ✅ Reproduced |
+| PhotoSLAM | Real-time SLAM | [Official](https://github.com/HuajianUP/Photo-SLAM) | ✅ Reproduced |
+| Traditional 3DGS | Offline | [Official](https://github.com/graphdeco-inria/gaussian-splatting) | ✅ Reproduced |
 
 *Note: Source code of each algorithm is NOT included. Please refer to their official repositories.*
 
@@ -26,8 +26,6 @@
 ### Scene 1: fr1_desk
 | Algorithm | Type | PSNR ↑ | SSIM ↑ | LPIPS ↓ | FPS ↑ | Mem(GB) | Points ↓ |
 |-----------|------|--------|--------|---------|-------|---------|----------|
-| Traditional 3DGS | Offline | - | - | - | - | - | - |
-| Hierarchical3DGS | Offline | - | - | - | - | - | - |
 | SplaTAM | Real-time SLAM | 21.680 | - | - | 0.196 | 1.476 | 971,162 |
 | Photo-SLAM | Real-time SLAM | 19.60 | - | - | 10.25 | 0.559 | 36,821 |
 | MemGS | Real-time SLAM | 18.218 | - | - | 9.217 | 1.190 | 36,678 |
@@ -36,8 +34,6 @@
 ### Scene 2: fr2_xyz
 | Algorithm | Type | PSNR ↑ | SSIM ↑ | LPIPS ↓ | FPS ↑ | Mem(GB) | Points ↓ |
 |-----------|------|--------|--------|---------|-------|---------|----------|
-| Traditional 3DGS | Offline | - | - | - | - | - | - |
-| Hierarchical3DGS | Offline | - | - | - | - | - | - |
 | SplaTAM | Real-time SLAM | 25.14 | - | - | 0.074 | 9.067 | 6,283,744 |
 | Photo-SLAM | Real-time SLAM | 22.11 | - | - | 11.14 | 0.482 | 80,502 |
 | MemGS | Real-time SLAM | 26.489 | - | - | 10.289 | 0.587 | 40,477 |
@@ -46,8 +42,6 @@
 ### Scene 3: fr3_office
 | Algorithm | Type | PSNR ↑ | SSIM ↑ | LPIPS ↓ | FPS ↑ | Mem(GB) | Points ↓ |
 |-----------|------|--------|--------|---------|-------|---------|----------|
-| Traditional 3DGS | Offline | - | - | - | - | - | - |
-| Hierarchical3DGS | Offline | - | - | - | - | - | - |
 | SplaTAM | Real-time SLAM | 21.680 | - | - | 0.217 | 3.276 | 802,888 |
 | Photo-SLAM | Real-time SLAM | 19.85 | - | - | 10.05 | 1.196 | 62,512 |
 | MemGS | Real-time SLAM | 24.375 | - | - | 9.124 | 1.709 | 52,076 |
