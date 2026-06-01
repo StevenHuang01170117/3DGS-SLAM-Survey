@@ -44,6 +44,5 @@
 | Photo-SLAM | Real-time SLAM | 19.85 | 0.705 | 0.161 | 10.05 | 1.196 | 62,512 |
 | MemGS | Real-time SLAM | 24.375 | 0.8302 | 0.2363 | 9.124 | 1.709 | 52,076 |
 
-> **Note**: `SSIM` / `LPIPS` metrics are in progress and will be updated.  
-> `Mem` = Peak GPU memory usage during tracking/mapping (GB).  
+> **Note**:  `Mem` = Peak GPU memory usage during tracking/mapping (GB).  
 > `Points` = Final Gaussian point count after convergence.
